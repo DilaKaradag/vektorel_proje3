@@ -35,7 +35,7 @@ class cevirmeEkrani(QMainWindow):
                 central_widget.setLayout(layout)
                 self.setCentralWidget(central_widget)
 
-                self.kelime1_input(TR) == self.kelime2_input (ENG)
+                
 
                 
 
