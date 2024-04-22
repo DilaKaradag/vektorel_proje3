@@ -22,15 +22,22 @@ class secimEkrani(QMainWindow):
         yerlesimD2.addWidget(buton1)
         yerlesimD2.addWidget(buton2)
         
-        araclar = QWidget()
-        araclar.setLayout()
-        self.setCentralWidget(araclar)
+        arac = QWidget()
+        yerlesimY1.addLayout(yerlesimD1)
+        yerlesimY1.addLayout(yerlesimD2)
+
+        arac.setLayout(yerlesimY1)
+        self.setCentralWidget(arac)
+
+def main():
+    app = QApplication([])
+    window = secimEkrani()
+    window.show
+    app.exec()
+        
 
         
 
-uygulama = QApplication([])
-pencere = secimEkrani()
-pencere.show()
-uygulama.exec()
+
 
 
