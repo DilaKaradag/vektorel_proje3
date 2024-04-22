@@ -5,6 +5,18 @@ from PyQt6.QtWidgets import *
 
 
 class cevirmeEkrani(QMainWindow):
+        def oturum(self):
+                kullaniciadi = input("Kullanıcı adınızı giriniz: ")
+                sifre = input("Şifrenizi giriniz: ")
+
+                if kullaniciadi == "dila" and sifre == "12345":
+                        print("Uygulamaya hoş geldiniz.")
+                else:
+                        print("Hatalı giriş yaptınız. Lütfen kontrol ediniz.")
+        
+        
+        
+        
         def __init__(self):
                 super().__init__()
 
@@ -20,6 +32,7 @@ class cevirmeEkrani(QMainWindow):
                 layout.addWidget(label_kelime1)
                 layout.addWidget(self.kelime1_input)
 
+                label_kelime2 = QLabel()
                 self.kelime2_input = QLineEdit()
                 layout.addWidget(label_kelime2)
                 layout.addWidget(self.kelime2_input)
