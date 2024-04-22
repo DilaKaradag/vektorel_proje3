@@ -66,7 +66,7 @@ class cevirmeEkrani(QMainWindow):
                 layout.addWidget(label_kelime1)
                 layout.addWidget(self.kelime1_input)
 
-                ceviri_button = QPushButton("Çeviri yap.")
+                ceviri_button = QPushButton("Çeviri yap")
                 ceviri_button.clicked.connect(self.mesaj)
                 layout.addWidget(ceviri_button)
 
