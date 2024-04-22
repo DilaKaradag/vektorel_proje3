@@ -70,7 +70,7 @@ class cevirmeEkrani(QMainWindow):
                 ceviri_button.clicked.connect(self.mesaj)
                 layout.addWidget(ceviri_button)
 
-                label_kelime2 = QLabel()
+                label_kelime2 = QLabel("Sonuç(ENG): ")
                 self.kelime2_input = QLineEdit()
                 layout.addWidget(label_kelime2)
                 layout.addWidget(self.kelime2_input)
@@ -78,9 +78,11 @@ class cevirmeEkrani(QMainWindow):
                 central_widget.setLayout(layout)
                 self.setCentralWidget(central_widget)
 
+                
+
         def mesaj(self):
-                kelime1 = int(self.kelime1_input.text()) * 2
-                self.kelime2_input.setText(str(kelime1))
+                kelime1 = (self.kelime1_input.text()) == "Turkish"
+                self.kelime2_input.setText(str(kelime1)) == "English"
 
 def main():
         app= QApplication(sys.argv)
