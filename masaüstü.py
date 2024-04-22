@@ -4,7 +4,7 @@ class loginEkrani(QMainWindow):
         kadi = self.ka.text()
         sifre = self.sf.text()
         #print("Tıklandı", kadi, sifre)
-        if kadi == "admin" and sifre == "123":
+        if kadi == "dila" and sifre == "12345":
             print("Giriş yapabilir.")
         else:
             print("Hatalı kullanıcı adı veya şifre!")
@@ -21,7 +21,7 @@ class loginEkrani(QMainWindow):
         icerik.addWidget(QLabel("Şifre: "))
         self.sf = QLineEdit()
         icerik.addWidget(self.sf)
-        buton1 = QPushButton("Çevir")
+        buton1 = QPushButton("Giriş yap")
         icerik.addWidget(buton1)
         icerik.addWidget(QLabel("Sonuç: "))
         araclar = QWidget()
@@ -30,7 +30,13 @@ class loginEkrani(QMainWindow):
 
         buton1.clicked.connect(self.kontrol)
 
-uygulama = QApplication([])
-pencere = loginEkrani()
-pencere.show()
-uygulama.exec()
+
+def main():
+    uygulama = QApplication([])
+    pencere = loginEkrani()
+    pencere.show()
+    uygulama.exec()
+
+
+if __name__ == "__main__":
+    main()
