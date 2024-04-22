@@ -1,6 +1,7 @@
 import googletrans
 import sys
 import language
+import masaüstü
 from PyQt6.QtWidgets import *
 
 

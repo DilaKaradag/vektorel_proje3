@@ -1,6 +1,4 @@
 from PyQt6.QtWidgets import *
-import deneme
-
 class loginEkrani(QMainWindow):
     def kontrol(self):
         kadi = self.ka.text()
@@ -8,7 +6,6 @@ class loginEkrani(QMainWindow):
         #print("Tıklandı", kadi, sifre)
         if kadi == "admin" and sifre == "123":
             print("Giriş yapabilir.")
-            deneme.pencere1()
         else:
             print("Hatalı kullanıcı adı veya şifre!")
         
