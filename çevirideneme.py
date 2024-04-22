@@ -61,7 +61,7 @@ class cevirmeEkrani(QMainWindow):
                 central_widget = QWidget()
                 layout = QVBoxLayout()
 
-                label_kelime1 = QLabel("İlk kelimeyi giriniz(TR): ")
+                label_kelime1 = QLabel("Kelimeyi giriniz(TR): ")
                 self.kelime1_input = QLineEdit()
                 layout.addWidget(label_kelime1)
                 layout.addWidget(self.kelime1_input)
