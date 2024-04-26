@@ -37,14 +37,14 @@ class LoginWindow(QMainWindow):
         password = self.password_input.text()
 
         # Kullanıcı adı ve şifreyi kontrol etme - Örnek amaçlı basit bir kontrol
-        if username == "dila" and password == "12345":
+        if username == "admin" and password == "admin":
             self.open_ticari_window()
 
         else:
             QMessageBox.warning(self, "Hata", "Geçersiz kullanıcı adı veya şifre!")
 
     def open_ticari_window(self):
-        QMessageBox.information(self, "Başarılı", "Giriş başarılı!\nSÖZLÜK PROGRAMINA GİRİŞ YAPTINIZ.")
+        QMessageBox.information(self, "Başarılı", "Giriş başarılı!\nVÜCUT KİTLE İNDEKSİ HESAPLAMA UYGULAMASINA HOŞ GELDİNİZ.")
         self.close()  # Login penceresini kapat
         self.ticari_window = ticari.TicariWindow()
         self.ticari_window.show()
