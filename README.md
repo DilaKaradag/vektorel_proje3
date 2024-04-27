@@ -19,13 +19,13 @@
 
 
 <h3> > Başarılı giriş yaptıktan sonra karşınıza seçme ekranı gelecektir. Kullanmak istediğiniz uygulamayı seçebilirsiniz.<h3>
-<img height = "200" src = "proje3_resimler/uygulamaseçme.png">
+<img src = "proje3_resimler/uygulamaseçme.png">
 <p><p>
 
 
 
 <h3> > Inch Çevirici butonuna basarsanız sizi böyle bir ekran karşılayacaktır. Burda istediğiniz gibi çeviri yapabilirsiniz.😊 <h3>
-<img height = "200" src = "proje3_resimler/inchcevirme.png">
+<img src = "proje3_resimler/inchcevirme.png">
 <p><p>
 
 
