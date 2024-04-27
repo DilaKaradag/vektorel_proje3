@@ -5,6 +5,10 @@
 <p><p>
 
 
+<h3>Eğer giriş yaparken hata yaparsanız karşınıza bu gelir. Ama korkmayın tekrardan deneyebilirsiniz!<h3>
+<img src = "proje3_resimler/hata.PNG">
+
+
 <h3>Giriş yaptığınızda, başarılı giriş yaptığınıza dair bir pencere gelecektir.<h3>
 <img src = "proje3_resimler/başarılı.PNG">
 <p><p>
