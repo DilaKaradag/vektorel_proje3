@@ -139,6 +139,8 @@ class vucutkitleuygulamasi(QWidget):
         layout.addWidget(label_indeks)
         layout.addWidget(self.indeks_input)
 
+    
+    
     def mesaj2(self):
         sonuc = int(self.kg_input.text()) / float(self.boy_input.text()) ** 2
         self.indeks_input.setText(str(sonuc))
