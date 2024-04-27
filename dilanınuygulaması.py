@@ -69,7 +69,7 @@ class LoginWindow(QMainWindow):
         password = self.password_input.text()
 
         
-        if username == "q" and password == "q":
+        if username == "admin" and password == "admin":
             self.open_AnaEkran()
         else: QMessageBox.warning(self, "Hata", "Geçersiz kullanıcı adı veya şifre!")
 
