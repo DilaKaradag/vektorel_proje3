@@ -9,7 +9,7 @@
 <img src = "proje3_resimler/başarılı.png">
 <p><p>
 
-<h3>Eğer giriş yaparken hata yaparsanız karşınıza bu gelir. Ama korkmayın tekrardan deneyebilirsiniz!<h3>
+<h3>Eğer giriş yaparken hata yaparsanız karşınıza bu gelir. Ama korkmayın tekrardan deneyebilirsiniz❗<h3>
 <img src = "proje3_resimler/hata.png">
 <p></p>
 
