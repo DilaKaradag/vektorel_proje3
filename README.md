@@ -18,7 +18,7 @@
 
 
 
-<h3> > Başarılı giriş yaptıktan sonra karşınıza seçme ekranı gelecektir.Kullanmak istediğiniz uygulamayı seçebilirsiniz.<h3>
+<h3> > Başarılı giriş yaptıktan sonra karşınıza seçme ekranı gelecektir. Kullanmak istediğiniz uygulamayı seçebilirsiniz.<h3>
 <img src = "proje3_resimler/uygulamaseçme.png">
 <p><p>
 
