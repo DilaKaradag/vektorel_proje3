@@ -1,6 +1,28 @@
 # vektorel_proje3
 <h1>Masaüstü uygulamama hoş geldiniz!</h1>
 <h3>Uygulamayı açtığınızda ilk giriş ekranı gelecektir.(admin / admin ile giriş yapabilirsiniz.)</h3>
-<img src ="proje3/loginekranı.PNG">
+<img src = "proje3_resimler/loginekranı.PNG">
 <p><p>
 
+
+<h3>Giriş yaptığınızda, başarılı giriş yaptığınıza dair bir pencere gelecektir.<h3>
+<img src = "proje3_resimler/başarılı.PNG">
+<p><p>
+
+
+<h3>Başarılı giriş yaptıktan sonra karşınıza seçme ekranı gelecektir.Kullanmak istediğiniz uygulamayı seçebilirsiniz.<h3>
+<img src = "proje3_resimler/uygulamaseçme.PNG">
+<p><p>
+
+
+<h3>Inch Çevirici butonuna basarsanız sizi böyle bir ekran karşılayacaktır. Burda istediğiniz gibi çeviri yapabilirsiniz.😊 <h3>
+<img src = "proje3_resimler/inchcevirme.PNG">
+<p><p>
+
+
+<h3>Eğer vücut kitle indeksinizi hesaplamak isterseniz alttaki butona basınız. Bastığınızda karşınıza bu ekran gelecektir. Hatırlatma: Boyunuzu METRE olarak yazmayı unutmayınız❗<h3>
+<img src = "proje3_resimler/indeks.PNG">
+
+<h4>Hesapladığınızda size böyle bir bildiri gelir. Böylelikle ideal kilo olup olmadığınızı görebilirsiniz.<h4>
+<img src = "proje3_resimler/bildiri.PNG">
+<p><p>
