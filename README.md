@@ -1,17 +1,17 @@
 # vektorel_proje3
 <h1>Masaüstü uygulamama hoş geldiniz!</h1>
 <h3>Uygulamayı açtığınızda ilk giriş ekranı gelecektir.(admin / admin ile giriş yapabilirsiniz.)</h3>
-<img src = "proje3_resimler/loginekranı.PNG">
+<img src = "loginekranı.PNG">
 <p><p>
-
-
-<h3>Eğer giriş yaparken hata yaparsanız karşınıza bu gelir. Ama korkmayın tekrardan deneyebilirsiniz!<h3>
-<img src = "proje3_resimler/hata.PNG">
 
 
 <h3>Giriş yaptığınızda, başarılı giriş yaptığınıza dair bir pencere gelecektir.<h3>
 <img src = "proje3_resimler/başarılı.PNG">
 <p><p>
+
+<h3>Eğer giriş yaparken hata yaparsanız karşınıza bu gelir. Ama korkmayın tekrardan deneyebilirsiniz!<h3>
+<img src = "proje3_resimler/hata.PNG">
+<p></p>
 
 
 <h3>Başarılı giriş yaptıktan sonra karşınıza seçme ekranı gelecektir.Kullanmak istediğiniz uygulamayı seçebilirsiniz.<h3>
