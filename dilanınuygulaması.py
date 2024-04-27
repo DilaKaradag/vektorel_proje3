@@ -143,7 +143,7 @@ class vucutkitleuygulamasi(QWidget):
         sonuc = int(self.kg_input.text()) / float(self.boy_input.text()) ** 2
         self.indeks_input.setText(str(sonuc))
 
-        if sonuc < 18.5:
+        if sonuc <= 18.5:
             print(sonuc, "İdeal kilonun altındasınız.")
         elif 18.5 < sonuc < 24.9:
             print(sonuc, "İdeal kilodasınız.")
